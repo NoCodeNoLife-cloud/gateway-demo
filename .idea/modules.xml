@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/gateway-demo.eureka-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/gateway-demo.eureka-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway/gateway-demo.gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway/gateway-demo.gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-consumer/gateway-demo.service-consumer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-consumer/gateway-demo.service-consumer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-provider/gateway-demo.service-provider.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-provider/gateway-demo.service-provider.main.iml" />
+    </modules>
+  </component>
+</project>
