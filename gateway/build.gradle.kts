@@ -20,9 +20,6 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.1.1")
     // https://mvnrepository.com/artifact/com.google.code.gson/gson
     implementation("com.google.code.gson:gson:2.10.1")
-
-    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-loadbalancer
-    implementation("org.springframework.cloud:spring-cloud-starter-loadbalancer:4.1.4")
 }
 
 tasks.test {

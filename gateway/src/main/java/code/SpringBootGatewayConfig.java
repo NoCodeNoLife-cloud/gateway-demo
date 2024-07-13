@@ -12,6 +12,6 @@ import org.springframework.context.annotation.Configuration;
 public class SpringBootGatewayConfig {
 	@Bean
 	public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
-		return builder.routes().route("path_route", r -> r.path("/say/**").uri("http://localhost:8082/service-provider/")).build();
+		return builder.routes().route("path_route", r -> r.path("/blog").uri("http://localhost:8082")).build();
 	}
 }

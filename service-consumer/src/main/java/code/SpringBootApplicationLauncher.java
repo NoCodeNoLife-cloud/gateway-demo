@@ -37,7 +37,7 @@ public class SpringBootApplicationLauncher {
 	@Bean
 	public ApplicationRunner applicationRunner(@Autowired RestTemplate restTemplate) {
 		return args -> {
-			System.out.println(restTemplate.getForObject("http://gateway/say/blog", String.class));
+			System.out.println(restTemplate.getForObject("http://gateway/blog", String.class));
 		};
 	}
 }
